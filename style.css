@@ -1,0 +1,98 @@
+    *
+    {
+        padding: 0;
+        margin: 0;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+#background 
+    {
+        background-color: rgb(229, 225, 225);
+        margin-left: 300px;
+        margin-right: 300px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+#header
+    {
+        background-color: gray;
+        text-align: center;
+        padding: 30px;
+    }
+
+.circle
+    {
+        height: 100px;
+        width: 100px;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+
+#main
+    {   
+        background-color: rgb(254, 252, 252);
+        padding: 20px;
+    }
+
+.text
+    {
+        font-size: 30px;
+        color: grey;
+        font-weight:600;
+    }
+
+#block
+    {
+        background-color: rgb(229, 225, 225);
+        padding: 20px;
+        margin-top: 20px;
+    }
+
+.inline
+    {
+        display: flex;
+        gap: 10px;
+        padding: 2px;
+    }
+    
+#table
+    {
+        padding-top: 20px;
+        padding-bottom: 20px;
+
+        td
+        {
+            padding-left: 10px;
+            padding-right: 90px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+
+            border: 2px solid rgb(229, 225, 225) ;
+            border-collapse: collapse ;
+        }
+    }
+
+.project1
+    {
+        padding: 10px;
+        margin-top: 10px;
+        background-color: rgb(229, 225, 225);
+        border: 2px solid rgb(229, 225, 225);
+    }
+
+.project2
+    {
+        padding: 10px;
+        border: 2px solid rgb(229, 225, 225);
+    }
+
+footer  
+    {
+        background-color: rgb(254, 252, 252);
+        margin-top: 5px;
+        padding: 20px;
+        text-align: center;
+    }
